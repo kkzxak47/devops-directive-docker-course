@@ -1,5 +1,5 @@
 API_NODE_PATH:=../../05-example-web-application/api-node/
-DOCKERHUB_REPO:=sidpalas/devops-directive-docker-course-api-node
+DOCKERHUB_REPO:=kkzxak47/devops-directive-docker-course-api-node
 
 N?=0
 .PHONY: build-N

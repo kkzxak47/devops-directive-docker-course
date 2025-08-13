@@ -20,6 +20,10 @@ compose-up-build:
 compose-up-debug-build:
 	docker compose -f $(DEV_COMPOSE_FILE) -f $(DEBUG_COMPOSE_FILE) up --build
 
+.PHONY: compose-up-debug
+compose-up-debug:
+	docker compose -f $(DEV_COMPOSE_FILE) -f $(DEBUG_COMPOSE_FILE) up
+
 .PHONY: compose-down
 compose-down:
 	docker compose -f $(DEV_COMPOSE_FILE) down

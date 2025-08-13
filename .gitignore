@@ -5,3 +5,7 @@
 
 .DS_Store
 **/tmp
+
+.vscode
+_Dockerfile
+__debug_bin
